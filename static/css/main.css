@@ -1,0 +1,108 @@
+#main{
+    width:927px;
+    margin:54px auto;
+}
+
+#header{
+    position: relative;
+}
+
+.name{
+
+}
+
+.nav-items{
+    position: absolute;
+    left:600px;
+    top:0;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #36434D;
+}
+
+.nav-items>span{
+    margin-left: 19px;
+}
+
+section{
+    margin-top: 216px;
+}
+
+.halfUnit{
+    position: relative;
+}
+
+.square{
+    width: 309px;
+    height: 309px;
+}
+.firstImg{
+    position: relative;
+}
+.secondComment, .fifthImg{
+    position: absolute;
+    left: 309px;
+    top: 0;
+}
+
+.thirdImg, .sixthComment{
+    position: absolute;
+    left: 618px;
+    top: 0;
+}
+
+
+.secondComment, .fourthComment, .sixthComment{
+    background-color: #F5F5F5;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 289px;
+    top: 138.5px;
+    width: 0px;
+    height: 0px;
+    border-top: 16.5px solid transparent;
+    border-bottom: 16.5px solid transparent;
+    border-right: 20px solid #F5F5F5;
+}
+
+.arrow-up {
+    position: absolute;
+    left: 138.5px;
+    top:289px;
+    width: 0px;
+    height: 0px;
+    border-left: 16.5px solid transparent;
+    border-right: 16.5px solid transparent;
+    border-bottom: 20px solid #F5F5F5;
+}
+
+.arrow-right {
+    position: absolute;
+    left: 0;
+    top:138.5px;
+    width: 0;
+    height: 0;
+    border-top: 16.5px solid transparent;
+    border-bottom: 16.5px solid transparent;
+    border-left: 20px solid #F5F5F5;
+}
+
+.date{
+    position: absolute;
+    left:104px;
+    top:54px;
+    font-family: Georgia;
+    font-size: 12px;
+    color: #0090C8;
+}
+.introduction{
+    position: absolute;
+    left:101px;
+    top:91px;
+    width: 108px;
+    font-family: "Roboto script=all rev=1";
+    font-size: 12px;
+    color: #36434D;
+}
