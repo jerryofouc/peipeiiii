@@ -67,7 +67,7 @@ and (max-device-width:480px) {
     .small-img{
         position: relative;
         background-size: cover;
-        background: url("/peipeiiii/static/img/1.png") no-repeat 50% 50%;
+        background: url("/static/img/1.png") no-repeat 50% 50%;
     }
     .small-comment{
         background-color: #F5F5F5;
@@ -130,7 +130,7 @@ and (min-device-width:480px) {
 
 .firstImg{
     position: relative;
-    background-image: url("/peipeiiii/static/img/1.png");
+    background-image: url("/static/img/1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -138,7 +138,7 @@ and (min-device-width:480px) {
 
 .thirdImg{
     position: relative;
-    background-image: url("/peipeiiii/static/img/2.png");
+    background-image: url("/static/img/2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -146,7 +146,7 @@ and (min-device-width:480px) {
 
 .fifthImg{
     position: relative;
-    background-image: url("/peipeiiii/static/img/3.png");
+    background-image: url("/static/img/3.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
