@@ -34,9 +34,10 @@
 
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 <script>
+    var MAX = 81;
     $(document).ready(function(){
         var unitHtml = "";
-        for(var i=0;i<81;){
+        for(var i=0;i<MAX;){
             if(i%3 == 0){
                 unitHtml += '<div class="halfUnit" >';
             }
@@ -50,7 +51,7 @@
         $(".large-unit").html(unitHtml);
     });
     function getPicUrl(i) {
-        return "url('static/img/" + "00" + ((i+1)>=10?(i+1):("0"+(i+1)))+"@2x.png')"
+        return "url('static/img/" + "00" + ((MAX-i)>=10?(MAX-i):("0"+(MAX-i)))+"@2x.png')"
     }
 </script>
 </body>
